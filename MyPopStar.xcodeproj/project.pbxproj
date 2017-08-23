@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F51C307E1F3D68600043CC9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F51C307D1F3D68600043CC9F /* main.m */; };
+		F51C30811F3D68600043CC9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F51C30801F3D68600043CC9F /* AppDelegate.m */; };
+		F51C30841F3D68600043CC9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51C30831F3D68600043CC9F /* ViewController.m */; };
+		F51C30871F3D68600043CC9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51C30851F3D68600043CC9F /* Main.storyboard */; };
+		F51C30891F3D68600043CC9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51C30881F3D68600043CC9F /* Assets.xcassets */; };
+		F51C308C1F3D68600043CC9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51C308A1F3D68600043CC9F /* LaunchScreen.storyboard */; };
+		F51C30951F3D69110043CC9F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C30941F3D69110043CC9F /* Icon@2x.png */; };
+		F5D5AECA1F3D6D0200A6B915 /* common.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5D5AEC91F3D6D0200A6B915 /* common.plist */; };
+		F5D5AED01F3D6D3300A6B915 /* item1.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D5AECB1F3D6D3300A6B915 /* item1.png */; };
+		F5D5AED11F3D6D3300A6B915 /* item2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D5AECC1F3D6D3300A6B915 /* item2.png */; };
+		F5D5AED21F3D6D3300A6B915 /* item3.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D5AECD1F3D6D3300A6B915 /* item3.png */; };
+		F5D5AED31F3D6D3300A6B915 /* item4.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D5AECE1F3D6D3300A6B915 /* item4.png */; };
+		F5D5AED41F3D6D3300A6B915 /* item5.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D5AECF1F3D6D3300A6B915 /* item5.png */; };
+		F5D5AED81F3D6DD000A6B915 /* Star.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D5AED71F3D6DD000A6B915 /* Star.m */; };
+		F5D5AEDA1F3D727C00A6B915 /* backgroundA.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D5AED91F3D727C00A6B915 /* backgroundA.png */; };
+		F5D5AEDF1F41DC4300A6B915 /* 炸.caf in Resources */ = {isa = PBXBuildFile; fileRef = F5D5AEDE1F41DC4300A6B915 /* 炸.caf */; };
+		F5D5AEE21F41F19E00A6B915 /* svip.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D5AEE01F41F19E00A6B915 /* svip.png */; };
+		F5D5AEE31F41F19E00A6B915 /* vip.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D5AEE11F41F19E00A6B915 /* vip.png */; };
+		F5D5AEE91F41F3A700A6B915 /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D5AEE41F41F3A700A6B915 /* monkey.png */; };
+		F5D5AEEF1F41F3E500A6B915 /* vip.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5D5AEEE1F41F3E500A6B915 /* vip.plist */; };
+		F5D5AEF11F41F59D00A6B915 /* lion.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D5AEF01F41F59D00A6B915 /* lion.png */; };
+		F5D5AEF31F41F6F100A6B915 /* frog.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D5AEF21F41F6F100A6B915 /* frog.png */; };
+		F5D5AEF51F41F6FB00A6B915 /* 猪.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D5AEF41F41F6FB00A6B915 /* 猪.png */; };
+		F5D5AEF91F41F77300A6B915 /* 考拉.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D5AEF81F41F77300A6B915 /* 考拉.png */; };
+		F5D5AEFB1F41F82300A6B915 /* 牛.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D5AEFA1F41F82300A6B915 /* 牛.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F51C30791F3D68600043CC9F /* MyPopStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPopStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51C307D1F3D68600043CC9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F51C307F1F3D68600043CC9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F51C30801F3D68600043CC9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F51C30821F3D68600043CC9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F51C30831F3D68600043CC9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F51C30861F3D68600043CC9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F51C30881F3D68600043CC9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F51C308B1F3D68600043CC9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F51C308D1F3D68600043CC9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51C30941F3D69110043CC9F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		F5D5AEC71F3D6B5600A6B915 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F5D5AEC91F3D6D0200A6B915 /* common.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = common.plist; sourceTree = "<group>"; };
+		F5D5AECB1F3D6D3300A6B915 /* item1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item1.png; sourceTree = "<group>"; };
+		F5D5AECC1F3D6D3300A6B915 /* item2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item2.png; sourceTree = "<group>"; };
+		F5D5AECD1F3D6D3300A6B915 /* item3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item3.png; sourceTree = "<group>"; };
+		F5D5AECE1F3D6D3300A6B915 /* item4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item4.png; sourceTree = "<group>"; };
+		F5D5AECF1F3D6D3300A6B915 /* item5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item5.png; sourceTree = "<group>"; };
+		F5D5AED61F3D6DD000A6B915 /* Star.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Star.h; sourceTree = "<group>"; };
+		F5D5AED71F3D6DD000A6B915 /* Star.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Star.m; sourceTree = "<group>"; };
+		F5D5AED91F3D727C00A6B915 /* backgroundA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundA.png; sourceTree = "<group>"; };
+		F5D5AEDE1F41DC4300A6B915 /* 炸.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "炸.caf"; sourceTree = "<group>"; };
+		F5D5AEE01F41F19E00A6B915 /* svip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = svip.png; sourceTree = "<group>"; };
+		F5D5AEE11F41F19E00A6B915 /* vip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vip.png; sourceTree = "<group>"; };
+		F5D5AEE41F41F3A700A6B915 /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
+		F5D5AEEE1F41F3E500A6B915 /* vip.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vip.plist; sourceTree = "<group>"; };
+		F5D5AEF01F41F59D00A6B915 /* lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion.png; sourceTree = "<group>"; };
+		F5D5AEF21F41F6F100A6B915 /* frog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog.png; sourceTree = "<group>"; };
+		F5D5AEF41F41F6FB00A6B915 /* 猪.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "猪.png"; sourceTree = "<group>"; };
+		F5D5AEF81F41F77300A6B915 /* 考拉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "考拉.png"; sourceTree = "<group>"; };
+		F5D5AEFA1F41F82300A6B915 /* 牛.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "牛.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F51C30761F3D68600043CC9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F51C30701F3D68600043CC9F = {
+			isa = PBXGroup;
+			children = (
+				F51C307B1F3D68600043CC9F /* MyPopStar */,
+				F51C307A1F3D68600043CC9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F51C307A1F3D68600043CC9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F51C30791F3D68600043CC9F /* MyPopStar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F51C307B1F3D68600043CC9F /* MyPopStar */ = {
+			isa = PBXGroup;
+			children = (
+				F5D5AEDD1F41DC0C00A6B915 /* songs */,
+				F5D5AEC81F3D6CDF00A6B915 /* config */,
+				F51C30931F3D69040043CC9F /* images */,
+				F51C307F1F3D68600043CC9F /* AppDelegate.h */,
+				F51C30801F3D68600043CC9F /* AppDelegate.m */,
+				F51C30821F3D68600043CC9F /* ViewController.h */,
+				F51C30831F3D68600043CC9F /* ViewController.m */,
+				F5D5AED51F3D6DBE00A6B915 /* View */,
+				F5D5AEC71F3D6B5600A6B915 /* PrefixHeader.pch */,
+				F51C30851F3D68600043CC9F /* Main.storyboard */,
+				F51C30881F3D68600043CC9F /* Assets.xcassets */,
+				F51C308A1F3D68600043CC9F /* LaunchScreen.storyboard */,
+				F51C308D1F3D68600043CC9F /* Info.plist */,
+				F51C307C1F3D68600043CC9F /* Supporting Files */,
+			);
+			path = MyPopStar;
+			sourceTree = "<group>";
+		};
+		F51C307C1F3D68600043CC9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F51C307D1F3D68600043CC9F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F51C30931F3D69040043CC9F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F5D5AED91F3D727C00A6B915 /* backgroundA.png */,
+				F51C30941F3D69110043CC9F /* Icon@2x.png */,
+				F5D5AECB1F3D6D3300A6B915 /* item1.png */,
+				F5D5AECC1F3D6D3300A6B915 /* item2.png */,
+				F5D5AECD1F3D6D3300A6B915 /* item3.png */,
+				F5D5AECE1F3D6D3300A6B915 /* item4.png */,
+				F5D5AECF1F3D6D3300A6B915 /* item5.png */,
+				F5D5AEE01F41F19E00A6B915 /* svip.png */,
+				F5D5AEE11F41F19E00A6B915 /* vip.png */,
+				F5D5AEE41F41F3A700A6B915 /* monkey.png */,
+				F5D5AEF81F41F77300A6B915 /* 考拉.png */,
+				F5D5AEF41F41F6FB00A6B915 /* 猪.png */,
+				F5D5AEFA1F41F82300A6B915 /* 牛.png */,
+				F5D5AEF21F41F6F100A6B915 /* frog.png */,
+				F5D5AEF01F41F59D00A6B915 /* lion.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		F5D5AEC81F3D6CDF00A6B915 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				F5D5AEC91F3D6D0200A6B915 /* common.plist */,
+				F5D5AEEE1F41F3E500A6B915 /* vip.plist */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		F5D5AED51F3D6DBE00A6B915 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5D5AED61F3D6DD000A6B915 /* Star.h */,
+				F5D5AED71F3D6DD000A6B915 /* Star.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F5D5AEDD1F41DC0C00A6B915 /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				F5D5AEDE1F41DC4300A6B915 /* 炸.caf */,
+			);
+			name = songs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F51C30781F3D68600043CC9F /* MyPopStar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51C30901F3D68600043CC9F /* Build configuration list for PBXNativeTarget "MyPopStar" */;
+			buildPhases = (
+				F51C30751F3D68600043CC9F /* Sources */,
+				F51C30761F3D68600043CC9F /* Frameworks */,
+				F51C30771F3D68600043CC9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPopStar;
+			productName = MyPopStar;
+			productReference = F51C30791F3D68600043CC9F /* MyPopStar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F51C30711F3D68600043CC9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xzk;
+				TargetAttributes = {
+					F51C30781F3D68600043CC9F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JHFJ9EDM32;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F51C30741F3D68600043CC9F /* Build configuration list for PBXProject "MyPopStar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F51C30701F3D68600043CC9F;
+			productRefGroup = F51C307A1F3D68600043CC9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F51C30781F3D68600043CC9F /* MyPopStar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F51C30771F3D68600043CC9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D5AED41F3D6D3300A6B915 /* item5.png in Resources */,
+				F5D5AEF31F41F6F100A6B915 /* frog.png in Resources */,
+				F5D5AEF11F41F59D00A6B915 /* lion.png in Resources */,
+				F51C308C1F3D68600043CC9F /* LaunchScreen.storyboard in Resources */,
+				F5D5AED11F3D6D3300A6B915 /* item2.png in Resources */,
+				F5D5AECA1F3D6D0200A6B915 /* common.plist in Resources */,
+				F5D5AEF51F41F6FB00A6B915 /* 猪.png in Resources */,
+				F5D5AED01F3D6D3300A6B915 /* item1.png in Resources */,
+				F5D5AEE31F41F19E00A6B915 /* vip.png in Resources */,
+				F5D5AEDA1F3D727C00A6B915 /* backgroundA.png in Resources */,
+				F5D5AEFB1F41F82300A6B915 /* 牛.png in Resources */,
+				F51C30951F3D69110043CC9F /* Icon@2x.png in Resources */,
+				F5D5AEDF1F41DC4300A6B915 /* 炸.caf in Resources */,
+				F5D5AEE21F41F19E00A6B915 /* svip.png in Resources */,
+				F51C30891F3D68600043CC9F /* Assets.xcassets in Resources */,
+				F5D5AEEF1F41F3E500A6B915 /* vip.plist in Resources */,
+				F5D5AEF91F41F77300A6B915 /* 考拉.png in Resources */,
+				F5D5AED21F3D6D3300A6B915 /* item3.png in Resources */,
+				F5D5AEE91F41F3A700A6B915 /* monkey.png in Resources */,
+				F51C30871F3D68600043CC9F /* Main.storyboard in Resources */,
+				F5D5AED31F3D6D3300A6B915 /* item4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F51C30751F3D68600043CC9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51C30841F3D68600043CC9F /* ViewController.m in Sources */,
+				F51C30811F3D68600043CC9F /* AppDelegate.m in Sources */,
+				F51C307E1F3D68600043CC9F /* main.m in Sources */,
+				F5D5AED81F3D6DD000A6B915 /* Star.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F51C30851F3D68600043CC9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F51C30861F3D68600043CC9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F51C308A1F3D68600043CC9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F51C308B1F3D68600043CC9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F51C308E1F3D68600043CC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = MyPopStar/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F51C308F1F3D68600043CC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = MyPopStar/PrefixHeader.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F51C30911F3D68600043CC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JHFJ9EDM32;
+				GCC_PREFIX_HEADER = MyPopStar/PrefixHeader.pch;
+				INFOPLIST_FILE = MyPopStar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MyPopStar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F51C30921F3D68600043CC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JHFJ9EDM32;
+				GCC_PREFIX_HEADER = MyPopStar/PrefixHeader.pch;
+				INFOPLIST_FILE = MyPopStar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.MyPopStar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F51C30741F3D68600043CC9F /* Build configuration list for PBXProject "MyPopStar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51C308E1F3D68600043CC9F /* Debug */,
+				F51C308F1F3D68600043CC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F51C30901F3D68600043CC9F /* Build configuration list for PBXNativeTarget "MyPopStar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51C30911F3D68600043CC9F /* Debug */,
+				F51C30921F3D68600043CC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F51C30711F3D68600043CC9F /* Project object */;
+}
